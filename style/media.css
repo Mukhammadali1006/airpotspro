@@ -1,0 +1,503 @@
+@media (max-width:1140px) {
+    .main__box-4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        max-width: 650px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 60px 0;
+    }
+
+    .main__box-3 {
+        padding: 40px 0;
+    }
+
+    .main__box-2 {
+        padding: 40px 0;
+    }
+
+    .main__box-1 {
+        padding: 25px 0;
+    }
+
+    .main__box-img {
+        width: 470px;
+    }
+
+    .main__box-text {
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .main__box-img-2 {
+        width: 400px;
+    }
+
+    .main__box-text-1 {
+        width: 500px;
+        font-size: 20px;
+    }
+
+    .main__box-img-1 {
+        width: 240px;
+    }
+
+    .main__box-text-2 {
+        font-size: 18px;
+        width: 270px;
+    }
+}
+
+@media (max-width:1000px) {
+    .main__box-4 {
+        padding: 50px 0;
+    }
+
+    .nav__menu {
+        display: block;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+
+    .header {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .nav__list {
+        position: absolute;
+        flex-direction: column;
+        background: #282828;
+        top: 0;
+        left: 0px;
+        height: 100%;
+        transform: translateX(-110%);
+        padding: 20px 10px;
+        transition: 0.5s;
+        gap: 15px;
+    }
+
+    .nav__menu:focus~.nav__list {
+        transform: translate(0);
+    }
+
+    .nav__box-1 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .main__box-3 {
+        padding: 35px 0;
+    }
+
+    .main__box-2 {
+        padding: 35px 0;
+    }
+
+    .main__box-1 {
+        padding: 20px 0;
+    }
+
+    .main__box-img {
+        width: 440px;
+    }
+
+    .main__box-text {
+        width: 380px;
+        font-size: 18px;
+        margin-right: 25px;
+    }
+
+    .main__box-img-2 {
+        width: 380px;
+    }
+
+    .main__box-text-1 {
+        width: 475px;
+        font-size: 18px;
+    }
+
+    .main__box-img-1 {
+        width: 220px;
+    }
+
+    .main__box-text-2 {
+        font-size: 16px;
+        width: 245px;
+    }
+
+    .airpots {
+        height: 550px;
+    }
+
+    .airpots__title {
+        font-size: 85px;
+    }
+
+    .airpots__link {
+        font-size: 18px;
+        padding: 12px 11px;
+    }
+
+    .footer__link,
+    .nav__link {
+        font-size: 18px;
+    }
+
+    .footer {
+        padding: 70px 0;
+    }
+
+    .nav__link {
+        padding: 20px 10px;
+
+    }
+}
+
+@media (max-width:940px) {
+    .main__box-4 {
+        padding: 45px 0;
+    }
+
+    .main__box-3 {
+        padding: 30px 0;
+    }
+
+    .main__box-2 {
+        padding: 30px 0;
+    }
+
+    .main__box-1 {
+        padding: 17px 0;
+    }
+
+    .main__box-img {
+        width: 420px;
+    }
+
+    .main__box-text {
+        width: 365px;
+        font-size: 17px;
+        margin-right: 20px;
+    }
+
+    .main__box-img-2 {
+        width: 365px;
+    }
+
+    .main__box-text-1 {
+        width: 460px;
+        font-size: 17px;
+    }
+
+    .main__box-img-1 {
+        width: 200px;
+    }
+
+    .main__box-text-2 {
+        font-size: 15px;
+        width: 230px;
+    }
+
+    .airpots {
+        height: 500px;
+    }
+
+    .airpots__title {
+        font-size: 80px;
+    }
+
+    .airpots__link {
+        font-size: 16px;
+        padding: 10px 8px;
+    }
+
+    .footer__link,
+    .nav__link {
+        font-size: 17px;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width:880px) {
+    .main__box-4 {
+        padding: 40px 0;
+    }
+
+    .main__box-3 {
+        padding: 25px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main__box-2 {
+        padding: 25px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    .main__box-1 {
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .main__box-img {
+        width: 350px;
+    }
+
+    .main__box-text {
+        width: 350px;
+        font-size: 15px;
+        margin-right: 18px;
+        text-align: center;
+    }
+
+    .main__box-img-2 {
+        width: 350px;
+    }
+
+    .main__box-text-1 {
+        width: 440px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .main__box-img-1 {
+        width: 185px;
+    }
+
+    .main__box-text-2 {
+        font-size: 15px;
+       width: 400px;
+
+        text-align: center;
+    }
+
+    .nav__img {
+        width: 85px;
+    }
+
+    .airpots {
+        height: 500px;
+    }
+
+    .airpots__title {
+        font-size: 77px;
+    }
+
+    .airpots__link {
+        font-size: 14px;
+        padding: 10px 8px;
+    }
+
+    .footer__link,
+    .nav__link {
+        font-size: 17px;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer__img {
+        width: 60px;
+    }
+
+    .footer__img1 {
+        width: 60px;
+    }
+}
+
+@media (max-width:650px) {
+    .main__box-4 {
+        padding: 40px 0;
+        display: flex;
+        overflow: scroll;
+        
+    }
+
+    .main__box-3 {
+        padding: 25px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main__box-2 {
+        padding: 25px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    .main__box-1 {
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .main__box-img {
+        width: 320px;
+    }
+
+    .main__box-text {
+        width: 320px;
+        font-size: 15px;
+        margin-right: 18px;
+        text-align: center;
+    }
+
+    .main__box-img-2 {
+        width: 320px;
+    }
+
+    .main__box-text-1 {
+        width: 440px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .main__box-img-1 {
+        width: 145px;
+    }
+
+    .main__box-text-2 {
+        font-size: 14px;
+        width: 370px;
+
+        text-align: center;
+    }
+
+    .nav__img {
+        width: 85px;
+    }
+
+    .airpots {
+        height: 450px;
+    }
+
+    .airpots__title {
+        font-size: 65px;
+    }
+
+    .airpots__link {
+        font-size: 14px;
+        padding: 10px 8px;
+    }
+
+    .footer__link,
+    .nav__link {
+        font-size: 17px;
+    }
+.footer__logo-img{
+    width: 70px;
+}
+   .footer__img{
+    width: 40px;
+    margin-right: 10px;
+   }
+   .footer__img1{
+    width: 40px;
+   }
+
+    .footer {
+        padding: 25px 0;
+        
+    }
+}
+
+@media (max-width:500px) {
+
+ .footer__box{
+    display: flex;
+    overflow: scroll;
+ }   
+ .main__box-text-1{
+    width: 380px;
+ }
+ .main__box-text{
+    margin-right: 0;
+ }
+ .main__box-img{
+    width: 300px;
+ }
+ .main__box-img-1{
+    width: 120px;
+ }
+ .main__box-img-2{
+    width: 300px;
+ }
+ .footer__img{
+    margin-right: 0;
+ }
+ .footer__link{
+    font-size: 13px;
+ }
+ .airpots{
+    height: 400px;
+ }
+}
+@media (max-width:440px) {
+.main__box-text-1{
+    width: 350px;
+}
+.main__box-img{
+    width: 280px;
+}
+.main__box-img-2{
+    width: 280px;
+}
+.main__box-text{
+    width: 310px;
+}
+.main__box-text-1{
+    width: 310px;
+}
+.airpots{
+    height: 350px;
+ }
+ .footer__img{
+    width: 30px;
+ }
+ .footer__img1{
+    width: 30px;
+}
+.footer__logo-img{
+    width: 60px;
+}
+.airpots__title{
+    font-size: 55px;
+}
+.footer__box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+}
+@media (max-width:390px){
+.main__box-text-2{
+    max-width: 340px;
+    width: 100%;
+}
+.footer__box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+}
